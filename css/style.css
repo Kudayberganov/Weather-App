@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css2?family=Handlee&display=swap);
+
+body {
+    font-family: 'Handlee', handwriting;
+    font-size: 1.5rem;
+    background: rgb(72, 243, 200);
+    background: linear-gradient(90deg, rgba(72, 243, 200, 1) 0%, rgba(69, 214, 252, 1) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    line-height: 40px;
+    background-color: #f1e5a6;
+    border-radius: 20px;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 7px 25px;
+    font-family: 'Handlee', handwriting;
+    font-weight: bolder;
+    border: none;
+    background: rgb(72, 243, 200);
+    background: linear-gradient(90deg, rgba(72, 243, 200, 1) 0%, rgba(69, 214, 252, 1) 100%);
+    cursor: pointer;
+}
+
+.inp{
+    padding: 7px;
+    border-radius: 7px;
+    border: none; 
+    font-family: 'Handlee', handwriting;
+}
+
+.weatherIcon{
+    border-radius: 12px;
+    margin-top: 15px;
+    width: 40%;
+    background: none;
+}
+
+.author{
+    text-align: center;
+    margin-top: 80px;
+    opacity: 0.9;
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 1.2rem;
+    }
+
+    .container{
+        width: 440px;
+        padding: 17px;
+        margin: 0 auto;
+        margin-top: 100px;
+        line-height: 30px;
+        border-radius: 17px;
+    }
+
+    .btn{
+        border-radius: 7px;
+        padding: 6px 20px;
+        font-weight: bold;
+    }
+
+    .inp{
+        padding: 6px;
+        border-radius: 6px;
+    }
+
+    .author{
+        margin-top: 60px;
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 456px){
+    body{
+        font-size: 1rem;
+    }
+
+    .container{
+        width: 340px;
+        padding: 14px;
+        margin: 0 auto;
+        margin-top: 80px;
+        line-height: 20px;
+        border-radius: 17px;
+    }
+
+    .btn{
+        margin-top: 8px;
+        border-radius: 7px;
+        padding: 5px 17px;
+        font-weight: bold;
+    }
+
+    .inp{
+        padding: 5px;
+        border-radius: 6px;
+    }
+
+    .author{
+        margin-top: 40px;
+        font-size: 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 357px){
+    body{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .container{
+        width: 290px;
+        padding: 12px;
+        margin: 0 auto;
+        margin-top: 70px;
+        line-height: 16px;
+        border-radius: 17px;
+    }
+
+    .btn{
+        margin-top: 7px;
+        border-radius: 7px;
+        padding: 4px 15px;
+        font-weight: bold;
+    }
+
+    .inp{
+        padding: 4px;
+        border-radius: 6px;
+    }
+    
+    .author{
+        margin-top: 35px;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}

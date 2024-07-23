@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/weather-icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="cityName">Enter the city name: </label>
+            <input type="text" name="cityName" spellcheck="false" placeholder="Enter city name" required class="inp">
+            <button class="btn" type="submit">Search</button>
+        </form>
+        <div class="img">
+            <img src="./img/weather-app.png" class="weatherIcon" alt="Cloudy-weather">
+        </div>
+        <h1 class="description" style="margin-bottom: 12px;"></h1>
+        <p >Temperature: <span class="temp"></span></p>
+        <p>Wind: <span class="wind"></span></p>
+    </div>
+
+    <p class="author">Made by O'tkirbek Kudaybergenov</p>
+
+    <script src="./app.js"></script>
+</body>
+</html>
